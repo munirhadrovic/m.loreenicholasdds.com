@@ -1108,7 +1108,7 @@ html body .ui-group-theme-b .ui-bar-inherit {
     background: linear-gradient(to bottom,  #606c88 0%,#8da8c8 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#8da8c8',GradientType=0 ); /* IE6-9 */
 
-
+    border-top-color:#606c88 ;
     border-bottom: #8da8c8 ;
 
 }
@@ -1496,8 +1496,11 @@ div.ui-mobile-viewport {
 }
 .ui-header .ui-title,
 .ui-footer .ui-title {
-	font-size: 1em;
-	min-height: 1.1em;
+    font-size: 13px;
+    font-weight: normal;
+    text-decoration:none;
+
+    min-height: 1.1em;
 	text-align: center;
 	display: block;
 	margin: 0 30%;
